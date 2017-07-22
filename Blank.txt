@@ -1,1 +1,3 @@
 Waiting to be filled.Still blank.Now it wiil show this line.
+
+Difference between repository and working file with repository with staged files(After adding that file to be commited)
