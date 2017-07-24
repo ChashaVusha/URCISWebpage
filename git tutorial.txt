@@ -53,3 +53,5 @@ $ git reset HEAD fileName
 10) after staging or commiting if you need to undo that then - 
 
 $git checkout --fileName 
+
+11) Unnecessary
