@@ -54,4 +54,19 @@ $ git reset HEAD fileName
 
 $git checkout --fileName 
 
-11) Unnecessary
+11) To go back to a previous commit -
+
+$ git checkout #presentcommitNumber# -- fileName 
+
+12)To push files in github public repository - 
+
+* open github account
+* Open a repository 
+* Copy the URL of the Repository
+* git bash command - $ git remote add NAMEyouWANTtoGIVE addressOfTheURL
+
+For pushing every file of your local directory in the github repository named NAMEyouWANTtoGIVE -
+
+$git push -u NAMEyouWANTtoGIVE master 
+
+-then give the username and password ( my username : ChashaVusha and password: K.....60
