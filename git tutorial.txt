@@ -1,0 +1,47 @@
+GIT tutorial:
+
+1) Open a folder and to make it repository - 
+
+cd /Users/UserName/Desktop/FolderName ( Assuming that the folder is in desktop)
+
+@ git init (repository created)
+
+2) Add and commit files 
+
+$ git add . ( adding all files in the stage of the current repository to be commited) 
+$ git add fileName ( Adding a single file) 
+$ git commit -m "Message something" 
+
+Until committing GIT won't save the changes in the repository.
+
+3 ) $ git log 
+show all the commits 
+
+4 ) when GIT bash is hung 
+
+type 'q' to get back in the command line
+
+5) $ git status 
+
+Show if any file has to be added or committed . It also shows if any file is need to be committed after Renamed, Moved  or Deleted
+
+
+6) Rename - 
+
+First rename the file in the folder
+
+then in git command  - 
+$ git add newFileName 
+$ git rm oldFileName (remove the file saved in the repository)
+
+OR 
+
+$ git mv oldFileName newFileName
+
+7) Delete - 
+
+$ git rm fileName
+
+8) Moving in another folder 
+
+$ git mv fileName folderName/newFileName (optional)
