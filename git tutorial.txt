@@ -45,3 +45,11 @@ $ git rm fileName
 8) Moving in another folder 
 
 $ git mv fileName folderName/newFileName (optional)
+
+9) After stageing a file if you need to delete the recent changes from the file- 
+
+$ git reset HEAD fileName
+
+10) after staging or commiting if you need to undo that then - 
+
+$git checkout --fileName 
